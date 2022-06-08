@@ -1,0 +1,72 @@
+.header {
+    background-color: #f10808;
+    text-align: center;
+    color: white;
+    padding: 20px;
+  }
+
+
+
+  /* The navbar container */
+.topnav {
+    overflow: hidden;
+    background-color: rgb(20, 223, 121);
+  }
+  
+  /* Navbar links */
+  .topnav a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Links - change color on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+
+  .column {
+    float: left;
+    width:33.1% ;
+    border: 1px solid#f10808;
+    background-color: rgb(34, 163, 23);
+    padding: 2px;
+  }
+  
+  /* Left and right column */
+  .column.side {
+    width: 24%;
+    border: 1px solid #f10808
+
+  }
+  
+  /* Middle column */
+  .column.middle {
+    width: 50%;
+    border: 1px solid #f10808  
+  }
+  
+  /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column.side, .column.middle {
+      width: 100%;
+    }
+  }
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .column.content {
+    width: 74%;
+    border: 1px solid #f10808  
+  }
+
+
+
